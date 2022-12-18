@@ -26,14 +26,14 @@ font-size: 20px;
 
 body {
   margin: 0px;
-  background-color: #E3AD16;
-  font-family: 'Cormorant Garamond', serif;
+  background-color: #800000;
+  font-family: 'Libre Baskerville', serif;
 }
 
 main {
   width: 90%;
-  max-width: 1000px;
-  background: #FFF;
+  max-width: 1065px;
+  background: #FFDEAD;
   border-radius: 1rem;
   padding: 1rem 2rem;
   box-sizing: border-box;
@@ -42,12 +42,12 @@ main {
 
 /*beginning updated nav and ul, ol*/
 nav {
-  color: #E3AD16;
-  background-color: #000000;
+  color: #FA8072;
+  background-color: #FA8072;
   padding: 0;
   display: block;
   margin: 0;
-  border-bottom: 3px solid #FFF;
+  border-bottom: 3px solid #000000;
 }
 
 ul, ol {
@@ -60,7 +60,7 @@ ul, ol {
 /*end of updated nav and ul, ol*/
 
 nav a {
-  color: #E3AD16;
+  color: #000000;
 }
 
 a {
@@ -70,8 +70,12 @@ a {
 }
 
 h1, h2, h3 {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   margin: 0
+}
+
+h1 {
+  text-align: center
 }
 
 h2 {
@@ -97,15 +101,15 @@ nav li, nav li a {
 }
 
 .active {
-  background-color: #E3AD16;
+  background-color: #FFDEAD;
   color: #000;
   padding: 1rem;
 }
 
 /*Footer section*/
 footer {
-  background: #000;
-  color: #E3AD16;
+  background: #FA8072;
+  color: #000;
   width: 100%;
   margin: 0;
   padding: 1rem;
@@ -159,19 +163,9 @@ address {
   width: 100%;
 }
 
-.button_holder {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 1rem;
-}
-
-.hideThis {
-  display: none;
-}
 
 button {
-  background-color: #E3AD16;
+  background-color: #FFDEAD;
   border: none;
   color: #000;
   text-align: center;
